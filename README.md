@@ -1,4 +1,4 @@
-Aplicação para portifólio baseada no Spotfy
+Desenvolida em Angular - Aplicação para portifólio baseada no Spotfy
 
 # SpotfyCover
 
