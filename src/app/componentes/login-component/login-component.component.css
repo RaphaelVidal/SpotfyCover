@@ -1,1 +1,51 @@
 
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    #box{
+        background-color: orange;
+    }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    /* estilos aqui */
+    #box{
+        background-color: brown;
+    }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    /* estilos aqui */
+    #box{
+        background-color: blue;
+    }
+}
+
+/* Desktop grande */
+@media  (min-width: 979px) and (max-width: 1199px) {
+    /* estilos aqui */
+    #box{
+     background-color: yellow;
+     }
+ }
+
+
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+   /* estilos aqui */
+   #box{
+    /* background-color: red; */
+    width: 80vh;
+    }
+}
+
+/* hd */
+@media (min-width: 1920px) {
+    /* estilos aqui */
+    #box{
+     background-color: gray;
+
+     }
+ }
