@@ -1,0 +1,22 @@
+.active{
+    background-color: #80808057;
+    border-radius: 0.8vh;
+   
+}
+
+.nav-link{
+    font-size: small;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.nav-link:hover{
+    color:white;
+}
+
+i{
+    font-size: x-large;
+}
+

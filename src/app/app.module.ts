@@ -8,6 +8,7 @@ import { LoginComponentComponent } from './componentes/login-component/login-com
 import { HomeComponent } from './componentes/home/home.component';
 import { MenuNavegacaoComponent } from './componentes/menu-navegacao/menu-navegacao.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
