@@ -12,4 +12,10 @@ export class MenuNavegacaoComponent implements OnInit {
   ngOnInit() {
   }
 
+  setActive(idlink:string){
+    const linkAtivo = document.getElementsByClassName('active') 
+    document.getElementById(linkAtivo[0].id).classList.remove('active')
+    document.getElementById(idlink).classList.add('active')
+  }
+
 }

@@ -4,13 +4,13 @@
 <div class="mt-2">
     <ul class="nav flex-column pr-2 pl-2">
         <li class="nav-item">
-            <div class="nav-link active" href="#"><i class="fa fa-home mr-3"></i>Início</div>
+            <div class="nav-link active" id="inicio" (click)="setActive('inicio')" href="#"><i class="fa fa-home mr-3"></i>Início</div>
         </li>
         <li class="nav-item">
-            <div class="nav-link" onclick="alert('Click')" href="#"><i class="fa fa-search mr-3"></i> Buscar</div>
+            <div class="nav-link" id="buscar" (click)="setActive('buscar')" href="#"><i class="fa fa-search mr-3"></i> Buscar</div>
         </li>
         <li class="nav-item">
-            <div class="nav-link" href="#"><i class="fa fa-list mr-3"></i> Sua Biblioteca</div>
+            <div class="nav-link" id="biblioteca" (click)="setActive('biblioteca')" href="#"><i class="fa fa-list mr-3"></i> Sua Biblioteca</div>
         </li>
     </ul>
 </div>
