@@ -7,14 +7,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LoginComponentComponent } from './componentes/login-component/login-component.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { MenuNavegacaoComponent } from './componentes/menu-navegacao/menu-navegacao.component';
-
+import { PlaylistComponent } from './componentes/playlist/playlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponentComponent,
     HomeComponent,
-    MenuNavegacaoComponent
+    MenuNavegacaoComponent,
+    PlaylistComponent
   ],
   imports: [
     BrowserModule,
